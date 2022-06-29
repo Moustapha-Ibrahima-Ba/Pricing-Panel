@@ -40,7 +40,8 @@ table {
 	border-spacing: 0;
 }
 
-/* My Styles */
+/* -- My Styles -- */
+
 html {
 	box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -54,6 +55,7 @@ body {
 	min-height: 100vh;
 }
 
+/* PANEL */
 .panel {
 	background-color: white;
 	border-radius: 10px;
@@ -70,6 +72,7 @@ body {
 	text-transform: uppercase;
 }
 
+/* INSIDE THE PANEL */
 .pricing-plan {
 	border-bottom: 1px solid #e1f1ff;
 }
@@ -145,6 +148,7 @@ body {
 	color: #fff;
 }
 
+/* MEDIA QUERIES */
 @media (min-width: 900px) {
 	.panel {
 		flex-direction: row;
